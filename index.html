@@ -36,5 +36,23 @@
   </ul>
 </div>
 
+<div class="stream-widget">
+  <h2>Come join us if I'm live!</h2>
+  <div id="twitch-embed"></div>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "StoneHallows",
+        parent:
+        ["https://kayjstephens.github.io/stonehallows-website/",
+        "kayjstephens.github.io/stonehallows-website/"]
+      });
+    </script>
+</div>
+
 </body>
 
