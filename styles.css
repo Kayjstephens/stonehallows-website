@@ -1,3 +1,5 @@
+/*** NAV BAR ***/
+
 .topnav {
   background-color: #3A3B33;
   overflow: hidden; }
@@ -24,6 +26,29 @@
 
 .topnav .icon {
   display: none; }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%; }
+
+.sticky + .content {
+  padding-top: 60px; }
+
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+
+  var sticky = navbar.offsetTop;
+
+ myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+/*** NAV BAR ***/
 
 /* Comet CSS */
 
@@ -671,3 +696,4 @@ abbr[title] {
   .utility__hidden--m.utility__hidden--l,
   .utility__hidden--m {
     display: none; } }
+
