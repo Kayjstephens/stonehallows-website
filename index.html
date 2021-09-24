@@ -36,14 +36,22 @@
   </ul>
 </div>
 
-<div class="stream-widget">
+<div class="stream-area">
   <h2>Come join us if I'm live!</h2>
 
-  <iframe src="https://player.twitch.tv/?channel=stonehallows&parent=https://kayjstephens.github.io/stonehallows-website/"
-  frameborder="0" allowfullscreen="true" scrolling="no"
-  height="378" width="620"></iframe>
-
-</div>
+    <div class="stream-widget">
+    <twitch-stream width="100%" channel="stonehallows"
+    muted chat playing></twitch-stream>
+      <div class="twitch-embed">
+        <iframe src="https://embed.twitch.tv?allowfullscreen=true&autoplay=true&channel=stonehallows&height=480&layout=video-with-chat&muted=true&parent=kayjstephens.github.io&referrer=https%3A%2F%2Fkayjstephens.github.io%2Fstonehallows-website%2F&theme=dark&width=100%25"
+        allowfullscreen scrolling="no" frameborder="0" allow="autoplay;
+         fullscreen" title="Twitch" sandbox="allow-modals
+         allow-scripts allow-same-origin allow-popups
+         allow-popups-to-escape-sandbox" width="100%" height="500">
+        </iframe>
+      </div>
+    </div>
+  </div>
 
 </body>
 
