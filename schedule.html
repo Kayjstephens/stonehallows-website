@@ -1,101 +1,114 @@
 <!DOCTYPE html>
 <html lang='en'>
+
   <head>
-    <meta charset='UTF-8'/>
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1">
+    <meta charset='UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>StoneHallows</title>
     <script src="https://kit.fontawesome.com/41af1ecfa0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allan">
-    <link rel='stylesheet' href='styles.css'/>
+    <link rel='stylesheet' href='styles.css' />
   </head>
 
   <body>
 
-      <div id="navbar">
-        <a href="home.html">Home</a>
-        <a href="schedule.html" class="active">Schedule</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
-        <a href="javascript:void(0);"
-        class="icon" onclick="myFunction()">
+    <div id="navbar">
+      <a href="home.html">Home</a>
+      <a href="schedule.html" class="active">Schedule</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
+    </div>
+
+    <div class="header">
+      <img class="shheader" src="images/Stonehallows.png" alt="StoneHallows Header Image">
+    </div>
+
+    <h1>Twitch Schedule</h1>
+    <h2>September 2021</h2>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Monday</h2>
+          <p class="sched-time">6-9 pm</p>
+          <img src="images/da-logo-transparent.png" alt="Dragon Age" height="100%" width="100%">
+        </div>
       </div>
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Tuesday</h2>
+          <p class="sched-time">6-9 pm</p>
+          <img src="images/da-logo-transparent.png" alt="Dragon Age" height="100%" width="100%">
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Wednesday</h2>
+          <p class="sched-time">6-9 pm</p>
+          <img src="images/da-logo-transparent.png" alt="Dragon Age" height="100%" width="100%">
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Thursday</h2>
+          <p class="sched-time">No Stream</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Friday</h2>
+          <p class="sched-time">No Stream</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Saturday</h2>
+          <p class="sched-time">No Stream</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2 class="days">Sunday</h2>
+          <p class="sched-time">No Stream</p>
+        </div>
+      </div>
+    </div>
 
-          <div class="header">
-            <img class="shheader" src="images/Stonehallows.png"
-            alt="StoneHallows Header Image">
-          </div>
+    <div class="footer">
+      <h3 class="socials-here">Socials Here!</h3>
+      <div class="socials-bar">
+        <a href="https://www.twitch.tv/stonehallows" target="_blank">
+          <i class="fab fa-twitch"></i></a>
+        <a href="https://www.instagram.com/stonehallows" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/StoneHallows" target="_blank">
+          <i class="fab fa-twitter"></i></a>
+        <a href="https://open.spotify.com/user/1267665433?si=dcad55625ead42c0" target="_blank">
+          <i class="fab fa-spotify"></i></a>
+        <a href="https://www.tiktok.com/@stonehallows?lang=en" target="_blank">
+          <i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
 
-<h1>Twitch Schedule</h1>
-<h2>September 2021</h2>
+    <script>
+      window.onscroll = function() {
+        myFunction()
+      };
 
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Monday</h2>
-      <p class="sched-time">6-9 pm</p>
-      <img src="images/da-logo-transparent.png"
-      alt="Dragon Age" height="100%" width="100%">
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Tuesday</h2>
-      <p class="sched-time">6-9 pm</p>
-      <img src="images/da-logo-transparent.png"
-      alt="Dragon Age" height="100%" width="100%">
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Wednesday</h2>
-      <p class="sched-time">6-9 pm</p>
-      <img src="images/da-logo-transparent.png"
-      alt="Dragon Age" height="100%" width="100%">
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Thursday</h2>
-      <p class="sched-time">No Stream</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Friday</h2>
-      <p class="sched-time">No Stream</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Saturday</h2>
-      <p class="sched-time">No Stream</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <h2 class="days">Sunday</h2>
-      <p class="sched-time">No Stream</p>
-    </div>
-  </div>
-</div>
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
 
-<div class="footer">
-<h3 class="socials-here">Socials Here!</h3>
-  <div class="socials-bar">
-    <a href="https://www.twitch.tv/stonehallows" target="_blank">
-      <i class="fab fa-twitch"></i></a>
-    <a href="https://www.instagram.com/stonehallows" target="_blank">
-      <i class="fab fa-instagram"></i></a>
-    <a href="https://twitter.com/StoneHallows" target="_blank">
-      <i class="fab fa-twitter"></i></a>
-    <a href="https://open.spotify.com/user/1267665433?si=dcad55625ead42c0" target="_blank">
-      <i class="fab fa-spotify"></i></a>
-    <a href="https://www.tiktok.com/@stonehallows?lang=en" target="_blank">
-      <i class="fab fa-tiktok"></i></a>
-  </div>
-</div>
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+
+    </script>
   </body>
-  </html>
+</html>
