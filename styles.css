@@ -358,6 +358,11 @@ div.selfie-block img {
   width: 100%;
   height: auto; }
 
+.srlink {
+  width: 100%;
+  height: auto;
+}
+
 ::-webkit-scrollbar {
   width: 15px; }
 
