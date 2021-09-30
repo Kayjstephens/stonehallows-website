@@ -82,8 +82,8 @@
   background-color: #404E39; }
 
 .da {
-  height: 180px;
-  width: 360px;
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -371,7 +371,7 @@ div.selfie-block img {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #C1843D; }
-  
+
 /*** Comet CSS ***/
 html {
   font-family: sans-serif;
@@ -888,4 +888,5 @@ h6 {
   .utility__hidden--m.utility__hidden--l,
   .utility__hidden--m {
     display: none; } }
+
 
